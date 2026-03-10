@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxessss</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        div {
+            margin: 10px;
+            padding: 10px;
+            border: 3px solid black
+        }
+
+        #siteContent {
+            background-color: rgb(255, 255, 255);
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #header {
+            font-size: 2em;
+            background-color: cadetblue;
+            border-radius: 10px;
+            box-shadow: 10px 10px;
+        }
+
+        #navBar {
+            background-color: rgb(21, 37, 182);
+            border-radius: 10px;
+        }
+
+        .navLink {
+            background-color: rgb(130, 203, 221);
+            display: inline;
+            border-radius: 10px;
+        }
+
+        .article {
+            background-color: blue;
+            border-radius: 10px;
+        }
+
+        .articleHeader {
+            background-color: blueviolet;
+            border-radius: 10px;
+        }
+
+        .articleContent {
+            background-color: rgb(192, 121, 228);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="siteContent">
+        <div id="header">Boxes in boxes</div>
+        <div id="navBar">
+            <div class="navLink">Link</div>
+            <div class="navLink">Link</div>
+            <div class="navLink">Link</div>
+        </div>
+        <div class="article">
+            <div class="articleHeader">
+                <h2>Article</h2>
+                <div class="articleContent">
+                    <p>This is some text</p>
+                </div>
+            </div>
+            <div class="article">
+                <div class="articleHeader">
+                    <h2>Article</h2>
+                </div>
+                <div class="articleContent"></div>
+                <p>This is some text</p>
+            </div>
+        </div>
+</body>
+
+</html>
